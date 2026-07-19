@@ -136,15 +136,6 @@ a {
     justify-content: center;
     position: relative
 }
-.glow-effect {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    background-color: rgba(212, 175, 55, 0.15);
-    border-radius: 50%;
-    filter: blur(64px);
-    z-index: -10
-}
 .hero-img {
     width: 100%;
     max-width: 600px;
