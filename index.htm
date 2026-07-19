@@ -10,73 +10,70 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <a href="hero">Marshall</a>
-            <nav aria-label="Əsas naviqasiya">
-                <a href="#about">Haqqımızda</a>
-                <a href="#gallery">Qalereya</a>
-                <a href="#contact">Əlaqə</a>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#hero" class="logo">Marshall</a>
+            <nav class="nav-menu" aria-label="Əsas naviqasiya">
+                <a href="#about" class="nav-link">Haqqımızda</a>
+                <a href="#gallery" class="nav-link">Qalereya</a>
+                <a href="#contact" class="nav-link">Əlaqə</a>
             </nav>
-            <a href="#contact">Sifariş Et</a>
+            <a href="#contact" class="header-btn">Sifariş Et</a>
         </div>
     </header>
+
     <main>
-        <section>
-            <div>
-                <article>
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
                     <span class="sub-title">Yeni Era: Major V</span>
-                    <h1 class="main-title">SƏSİN
-                        <span>ƏFSANƏVİ</span>
-                        GÜCÜ.
-                    </h1>
-                    <p>Marshall-ın klassik retro dizaynı, modern simsiz texnologiya ilə birləşdi. 100+ saatlıq fasiləsiz ifa və mükəmməl bas performansı ilə musiqini yenidən kəşf edin.
-                    </p>
-                    <div>
-                        <a href="#contact">İndi Sifariş Et</a>
-                        <a href="#gallery" >Modelləri İncələ</a>
+                    <h1 class="main-title">SƏSİN <br><span class="highlight">ƏFSANƏVİ</span> <br>GÜCÜ.</h1>
+                    <p class="description">Marshall-ın klassik retro dizaynı, modern simsiz texnologiya ilə birləşdi. 100+ saatlıq fasiləsiz ifa və mükəmməl bas performansı ilə musiqini yenidən kəşf edin.</p>
+                    <div class="btn-group">
+                        <a href="#contact" class="btn-filled">İndi Sifariş Et</a>
+                        <a href="#gallery" class="btn-border">Modelləri İncələ</a>
                     </div>
-                </article>
-                <div>
-                    <div></div>
-                    <img src="https://i.pinimg.com/736x/b1/f8/e2/b1f8e2585fac5642cff531f4a0d0d651.jpg" alt="Marshall Major V qara rəngli simsiz qulaqlıq"/>
+                </div>
+
+                <div class="hero-image-wrap">
+                    <div class="glow-effect"></div>
+                    <img src="https://i.pinimg.com/736x/b1/f8/e2/b1f8e2585fac5642cff531f4a0d0d651.jpg" alt="Marshall Major V qara rəngli simsiz qulaqlıq" class="hero-img" />
                 </div>
             </div>
         </section>
-        <section id="about">
-            <div>
-                <div>
-                    <img src="https://i.pinimg.com/1200x/98/c9/2d/98c92dd68be487a32c6f764f2f015fc9.jpg" alt="Marshall retro akustik səsləndirici və rok tərzi interyer" />
-                </div>
-                <article>
-                    <h2>Haqqımızda</h2>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                    <img src="https://i.pinimg.com/1200x/98/c9/2d/98c92dd68be487a32c6f764f2f015fc9.jpg" alt="Marshall retro akustik səsləndirici və rok tərzi interyer" class="about-img" />
+                <article class="about-text">
+                    <h2 class="section-title">Haqqımızda</h2>
                     <div class="line-decor"></div>
-                    <p>1962-ci ildən bəri səhnələrin və musiqi dünyasının ürəyi olan Marshall, səsn gücünü və estetik dizaynı qulaqlıqlarımıza daşıyır.</p>
-                    <p>Hər bir Marshall qulaqlığı, rok-n-rol mirasından ilhamlanaraq, təmiz, dərin və güclü bir akustika təqdim etmək üçün xüsusi olaraq tənzimlənmişdir. Biz təkcə qulaqlıq istehsal etmirik, həm də musiqi ehtirasını yaşadırıq.</p>
-                    <div>
-                        <div>
-                            <h4>100+ Saat</h4>
-                            <p>Batareya Ömrü</p>
+                    <p class="text-large">1962-ci ildən bəri səhnələrin və musiqi dünyasının ürəyi olan Marshall, səsn gücünü və estetik dizaynı qulaqlıqlarımıza daşıyır.</p>
+                    <p class="text-small">Hər bir Marshall qulaqlığı, rok-n-rol mirasından ilhamlanaraq, təmiz, dərin və güclü bir akustika təqdim etmək üçün xüsusi olaraq tənzimlənmişdir. Biz təkcə qulaqlıq istehsal etmirik, həm də musiqi ehtirasını yaşadırıq.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4 class="stat-number">100+ Saat</h4>
+                            <p class="stat-label">Batareya Ömrü</p>
                         </div>
-                        <div>
-                            <h4>Bluetooth 5.3</h4>
-                            <p>Yüksək Qoşulma</p>
+                        <div class="stat-item">
+                            <h4 class="stat-number">Bluetooth 5.3</h4>
+                            <p class="stat-label">Yüksək Qoşulma</p>
                         </div>
                     </div>
                 </article>
             </div>
         </section>
 
-        <section id="gallery">
+        <section id="gallery" class="gallery-section">
             <div class="gallery-header">
-                <h2>QALEREYA VƏ RƏNGLƏR</h2>
+                <h2 class="section-title-center">QALEREYA</h2>
                 <div class="line-decor-center"></div>
-                <p>Sizin tərzinizə ən çox uyğun gələn əfsanəvi rəng tonunu seçin.</p>
+                <p class="gallery-desc">Sizin tərzinizə ən çox uyğun gələn əfsanəvi rəng tonunu seçin.</p>
             </div>
             <div class="gallery-grid">
                 <article class="card">
-                    <div>
-                        <img src="https://i.pinimg.com/736x/97/26/d3/9726d32e40a0bbfdf469114515897a22.jpg" alt="Pitch Black modelli qara dəri qulaqlıq">
+                    <div class="card-image-wrap">
+                        <img src="https://i.pinimg.com/736x/97/26/d3/9726d32e40a0bbfdf469114515897a22.jpg" alt="Pitch Black modelli qara dəri qulaqlıq" class="card-img">
                     </div>
                     <div class="card-body">
                         <div>
@@ -87,8 +84,8 @@
                 </article>
 
                 <article class="card">
-                    <div>
-                        <img src="https://i.pinimg.com/736x/97/26/d3/9726d32e40a0bbfdf469114515897a22.jpg" alt="Pitch Black modelli qara dəri qulaqlıq">
+                    <div class="card-image-wrap">
+                        <img src="https://i.pinimg.com/1200x/65/7e/13/657e135f1747a335baf9de3b80044737.jpg" alt="Cream Gold modelli krem rəngli qulaqlıq" class="card-img">
                     </div>
                     <div class="card-body">
                         <div>
@@ -99,8 +96,8 @@
                 </article>
 
                 <article class="card">
-                    <div>
-                        <img src="https://i.pinimg.com/736x/97/26/d3/9726d32e40a0bbfdf469114515897a22.jpg" alt="Pitch Black modelli qara dəri qulaqlıq">
+                    <div class="card-image-wrap">
+                        <img src="https://i.pinimg.com/736x/1a/76/99/1a769904ee690955f134fb17ee918001.jpg" alt="Olive Green modelli zeytun yaşılı qulaqlıq" class="card-img">
                     </div>
                     <div class="card-body">
                         <div>
@@ -111,8 +108,8 @@
                 </article>
 
                 <article class="card">
-                    <div>
-                        <img src="https://i.pinimg.com/736x/97/26/d3/9726d32e40a0bbfdf469114515897a22.jpg" alt="Pitch Black modelli qara dəri qulaqlıq">
+                    <div class="card-image-wrap">
+                        <img src="https://i.pinimg.com/736x/d1/15/aa/d115aadb899980e79e90ed7124d3a953.jpg" alt="Vintage Brown modelli retro qəhvəyi qulaqlıq" class="card-img">
                     </div>
                     <div class="card-body">
                         <div>
@@ -123,8 +120,8 @@
                 </article>
 
                 <article class="card">
-                    <div>
-                        <img src="https://i.pinimg.com/736x/97/26/d3/9726d32e40a0bbfdf469114515897a22.jpg" alt="Pitch Black modelli qara dəri qulaqlıq">
+                    <div class="card-image-wrap">
+                        <img src="https://i.pinimg.com/1200x/c3/13/fe/c313fe098fcfa53cb1eca9a37fd47b21.jpg" alt="Dark Blue modelli tünd göy rəngli qulaqlıq" class="card-img">
                     </div>
                     <div class="card-body">
                         <div>
@@ -139,29 +136,26 @@
         <section id="contact" class="contact-section">
             <div class="contact-container">
                 <div class="contact-header">
-                    <h2>SİFARİŞ VƏ ƏLAQƏ</h2>
-                    <p>Aşağıdakı formu doldurun, ən qısa zamanda sizinlə əlaqə saxlayıb sifarişinizi tamamlayaq.</p>
+                    <h2 class="section-title-center text-gold">SİFARİŞ VƏ ƏLAQƏ</h2>
+                    <p class="contact-desc">Aşağıdakı formu doldurun, ən qısa zamanda sizinlə əlaqə saxlayıb sifarişinizi tamamlayaq.</p>
                 </div>
-                <form>
-                    <div classs="form-row">
-                        <div>
-                            <label for="full-name">
-                                Adınız və Soyadınız
-                            </label>
-                            <input type="text" id="full-name" required placeholder="Məsələn:Xəyalə ismayıllı"
-                        </div>
 
-                        <div>
-                            <label for="phone">
-                                Adınız və Soyadınız
-                            </label>
-                            <input type="tel" id="phone" required placeholder="+994 (50) 000 00 00"
+                <form class="order-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name" class="form-label">Adınız və Soyadınız</label>
+                            <input type="text" id="full-name" required placeholder="Məsələn: Xəyalə İsmayıllı" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefon Nömrəniz</label>
+                            <input type="tel" id="phone" required placeholder="+994 (50) 000 00 00" class="form-input">
                         </div>
                     </div>
-                    <div classs="form-row">
-                        <div>
-                            <label for="color"> İstədiyiniz Rəng</label>
-                            <select>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="color-select" class="form-label">İstədiyiniz Rəng</label>
+                            <select id="color-select" class="form-input form-select">
                                 <option value="black">Pitch Black (Qara)</option>
                                 <option value="cream">Cream Gold (Krem)</option>
                                 <option value="brown">Vintage Brown (Qəhvəyi)</option>
@@ -169,31 +163,29 @@
                                 <option value="blue">Blue (Göy)</option>
                             </select>
                         </div>
-                        <div>
-                            <label>
-                                E-poçt ünvanı (İstəyə bağlı)
-                            </label>
-                            <input type="email" placeholder="nümunə@mail.com" />
-                        </div>
+                        <div class="form-group">
+
+                        <label class="form-label">E-poçt ünvanı (İstəyə bağlı)</label>
+                        <input type="email" placeholder="nümunə@mail.com" class="form-input">
                     </div>
-                    <div>
-                        <label>Əlavə Qeydlər və ya Ünvan</label>
-                        <textarea rows="4" placeholder="Çatdırılma ünvanı və ya xüsusi qeydləriniz..." class="form-input"></textarea>
-                    </div>
-                    <button type="submit">Müraciəti Göndər</button>
-                </form>
-            </div>
-        </section>
-    </main>
-        <footer>
-            <div>
-                <p class="copyright">&copy; 2026 Marshall Headphones. Bütün hüquqlar qorunur.</p>
-                <div class="social-links">
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
                 </div>
+                <div class="form-group">
+                    <label class="form-label">Əlavə Qeydlər və ya Ünvan</label>
+                    <textarea rows="4" placeholder="Çatdırılma ünvanı və ya xüsusi qeydləriniz..." class="form-input"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Müraciəti Göndər</button>
+            </form>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p class="copyright">&copy; 2026 Marshall Headphones. Bütün hüquqlar qorunur.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
             </div>
-        </footer>
-    
+        </div>
+    </footer>
 </body>
+</html>
