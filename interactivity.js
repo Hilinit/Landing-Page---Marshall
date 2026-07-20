@@ -5,11 +5,14 @@ document.querySelectorAll('a[href^="#"]').forEach(link =>{
     })
 })
 
-const alert = document.querySelector('.alert')
-document.querySelector('.order-form').addEventListener('submit', function(e) {
+const alertBox = document.querySelector('.alert')
+const form = document.querySelector('.order-form')
+
+form.addEventListener('submit', function(e) {
     e.preventDefault()
-    alert.display.style = "flex"
-    alert.innerHTML = "Form uğurla göndərildi!"
+    alertBox.querySelector('.alert-message').innerHTML = "Form uğurla göndərildi!"
+    alertBox.style.display = "flex"
+    form.reset()
 })
 
 const barMenu = document.querySelector('.bar-menu')
