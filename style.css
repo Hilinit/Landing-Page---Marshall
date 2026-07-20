@@ -343,9 +343,7 @@ a {
     border-color: var(--gold);
     box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.1)
 }
-
 textarea.form-input {resize: vertical}
-
 .form-select {
     cursor: pointer;
     padding-right: 40px;
@@ -439,9 +437,6 @@ textarea.form-input {resize: vertical}
     .hero-section {padding: 160px 24px 80px}
     .main-title {font-size: 72px}
     .description {font-size: 18px}
-    .glow-effect {
-        width: 350px;
-        height: 350px
-    }
+
     .gallery-grid {grid-template-columns: repeat(3, 1fr)}
 }
